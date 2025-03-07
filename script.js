@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const familiarBook = document.getElementById("summon-familiar-book");
   
   const bookView = document.getElementById("book-view");
-  const closeButton = document.getElementById(close-tome);
+  const closeButton = document.getElementById("close-tome");
   
 
   })
