@@ -55,7 +55,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("rename-wizard-form").addEventListener("submit", (e)=>){
     e.preventDefault();
 
-    
+    const wizardName = document.getElementById("new-wizard-name").value;
+    const wizardTitle = document.getElementById("new-wizard-title").value;
+    const message = document.getElementById("rename-message");
+
+    message.textContent = `You are now known as ${wizardName}, the ${wizardTitle}!`;
+    message.style.color = "purple"; 
   }
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
