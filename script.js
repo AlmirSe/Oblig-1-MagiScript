@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
-  document.getElementById("rename-wizard-form").addEventListener("submit", (e)=>){
+  document.getElementById("rename-wizard-form").addEventListener("submit", (e)=>{
     e.preventDefault();
 
     const wizardName = document.getElementById("new-wizard-name").value;
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     message.textContent = `You are now known as ${wizardName}, the ${wizardTitle}!`;
     message.style.color = "purple"; 
-  }
+  });
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
