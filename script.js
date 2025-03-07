@@ -43,9 +43,14 @@ document.addEventListener("DOMContentLoaded", () => {
     const conFirmPassword = document.getElementById("confirm-password").value;
     const messages = document.getElementById("password-message");
 
-    
-
-  })
+    if (newPassword != confirmPassword) {
+      messages.textContent = "Password do not match!";
+      messages.style.color = "red";
+    } else {
+      messages.textContent = "Password successfully changed for" + username;
+      messages.style.color = "green";
+    }
+  });
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
