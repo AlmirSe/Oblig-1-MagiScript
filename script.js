@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let traits = [];
     document.querySelectorAll(".traits:checked").forEach((traits) =>{
-      traits.push(traits.value);
+      traits.push(trait.value);
     });
 
     let summonText = "You have summoned a ${mood} ${familiarType} named ${familiarName}.";
