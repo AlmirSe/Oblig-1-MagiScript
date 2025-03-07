@@ -77,8 +77,16 @@ document.addEventListener("DOMContentLoaded", () => {
     let traits = [];
     document.querySelectorAll(".traits:checked").forEach((traits) =>{
       traits.push(traits.value);
-    })
+    });
 
+    let summonText = `You have summoned a ${mood} ${familiarType} named ${familiarName}.`;
+    if (hasWings) summonText += `It has ${wingsType} wings.`;
+    if (traits.length > 0) summonText += `It possesses the following traits: ${traits.join(", ")}`;
+    summonText  += `Its contract ends on ${contractEnd}.`;
+
+    message.textContent = summonText;
+    message.style.color = "blue";
+    
   });
 
   //TODO: add functionality to summon familiar
