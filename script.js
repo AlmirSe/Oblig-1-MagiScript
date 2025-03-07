@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const username = document.getElementById("Username").value;
     const newPassword = document.getElementById("new-Password").value;
-    const conFirmPassword = document.getElementById("confirm-password").value;
+    const confirmPassword = document.getElementById("confirm-password").value;
     const messages = document.getElementById("password-message");
 
     if (newPassword != confirmPassword) {
