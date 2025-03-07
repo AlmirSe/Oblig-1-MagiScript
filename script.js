@@ -95,6 +95,10 @@ document.addEventListener("DOMContentLoaded", () => {
     userarray.push({ action, data });
     console.log(userArray);
 
-  }
+    updateUserArray("Password Change", { username, newPassword}); //After changing password.
+    updateUserArray("Name Change", { wizardName, wizardTitle }); //After the change of name
+    updateUserArray("Summon Familiar", { familiarName, familiarType, mood }); // After summoning a familiar.
+
+  } 
  
  
