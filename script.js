@@ -89,5 +89,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
   });
 
+  let userarray = [];
+
+  function updateUserArray(action, data) {
+    userarray.push({ action, data });
+    console.log(userArray);
+
+  }
  
  
