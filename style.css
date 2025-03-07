@@ -39,8 +39,8 @@ body {
 .page-left{
   flex: 1;
   padding-top:50px;
-  padding-right: 200px;
-  
+  padding-right: 200px; 
+
 }
 .page-right {
   flex: 1;
