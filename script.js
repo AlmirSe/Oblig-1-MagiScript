@@ -27,7 +27,13 @@ document.addEventListener("DOMContentLoaded", () => {
     nameBookCover.classList.add("hidden");
     familiarBook.classList.add("hidden");
   }
+
+  //Adding event listeners to each book cover.
+  passwordBookCover.addEventListener("click", () => openSpellBook(passwordBook));
+  nameBookCover.addEventListener("click" () => openSpellBook(nameBook));
+  familiarBookCover.addEventListener("click" () => openSpellBook(familiarBook));
   
+
   //TODO: add functionality to change password
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
