@@ -1,6 +1,10 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   console.log("ready!")
+  const passwordBookCover = document.getElementById("change-password-book-cover"); 
+  const nameBookCover = document.getElementById("change-name-book-cover");
+  const familiarBookCover = document.getElementById("summon-familiar-cover");
+   
   
 
   })
