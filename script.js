@@ -14,10 +14,13 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   })
-  //TODO: add functionality to open the correct spell books
+
   function openSpellBook(){
-     console.log("How do you find the right spellbook?!")
-  
+     console.log("Opening spellbook...");
+     bookView.classList.remove("hidden");
+     book.classList.remove("hidden");
+     
+
   }
   //TODO: add functionality to change password
   //TODO: add functionality to change name
