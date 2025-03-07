@@ -51,6 +51,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
 
 .page-left {
@@ -59,15 +60,16 @@ body {
 }
 
 .page-left img {
-  transform: rotate: (6deg);
+  transform:rotate(6deg);  
   opacity: 0.75;
   max-height: 600px;
   max-width: 350px;
-}
+} 
 
 .page-right {
+  flex: 1; 
   max-width: 300px;
-  text-align: left;
+  text-align: left; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,6 +107,7 @@ button {
   padding: 15px;
   border: 2px solid #333;
   background-color: rgba(0, 0, 0, 0.75);
+  cursor: pointer; 
 }
 
 .book img {
@@ -129,6 +132,7 @@ select,
 button {
   padding: 0.5rem;
   border-radius: 4px;
+  font-size: 1rem; 
 }
 
 .hidden {
