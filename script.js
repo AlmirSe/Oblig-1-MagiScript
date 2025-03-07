@@ -30,12 +30,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //Adding event listeners to each book cover.
   passwordBookCover.addEventListener("click", () => openSpellBook(passwordBook));
-  nameBookCover.addEventListener("click" () => openSpellBook(nameBook));
-  familiarBookCover.addEventListener("click" () => openSpellBook(familiarBook));
+  nameBookCover.addEventListener("click", () => openSpellBook(nameBook));
+  familiarBookCover.addEventListener("click", () => openSpellBook(familiarBook));
 
   closeButton.addEventListener("click", closeSpellBook);
 
-  
+  document.getElementById("change-password-form").addEventListener("submit", (e) =>{
+    e.preventDefault(); 
+
+
+  })
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
