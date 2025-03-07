@@ -32,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
   passwordBookCover.addEventListener("click", () => openSpellBook(passwordBook));
   nameBookCover.addEventListener("click" () => openSpellBook(nameBook));
   familiarBookCover.addEventListener("click" () => openSpellBook(familiarBook));
+
+  closeButton.addEventListener("click", closeSpellBook);
   
 
   //TODO: add functionality to change password
