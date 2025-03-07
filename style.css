@@ -138,3 +138,23 @@ button {
 .hidden {
   display: none !important;
 }
+
+#password-message,
+#rename-message,
+#summon-message {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#password-message {
+  color: red;
+}
+
+#rename-message {
+  color: purple; 
+}
+
+#summon-message {
+  color: blue; 
+}
