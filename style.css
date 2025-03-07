@@ -100,10 +100,20 @@ button {
   justify-content: space-around;
   align-items: flex-start;
 }
+
 @media screen and (max-width: 768px) {
   .books-container {
     flex-direction: column;
     align-items: center;
+  }
+
+  .book{
+    width:90%;
+  }
+
+  #book-view {
+    width: 100%;
+    height: auto;
   }
  }
 
