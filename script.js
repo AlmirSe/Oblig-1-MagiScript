@@ -51,6 +51,12 @@ document.addEventListener("DOMContentLoaded", () => {
       messages.style.color = "green";
     }
   });
+
+  document.getElementById("rename-wizard-form").addEventListener("submit", (e)=>){
+    e.preventDefault();
+
+    
+  }
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
