@@ -62,6 +62,21 @@ document.addEventListener("DOMContentLoaded", () => {
     message.textContent = `You are now known as ${wizardName}, the ${wizardTitle}!`;
     message.style.color = "purple"; 
   });
-  //TODO: add functionality to change name
+
+  document.getElementById("summon-form").addEventListener("submit", (e) =>{
+    e.preventDefault();
+
+    const familiarName = document.getElementById("familiar-name").value;
+    const familiarType = document.getElementById("familiar-type").value;
+    const hasWings = document.getElementById("has-wings").checked;
+    const wingsType = document.getElementById("wings-type").value;
+    const mood = document.getElementById("familiar-mood").value
+    const contractEnd = document.getElementById("contract-end").value;
+    const message = document.getElementById("summon-message");
+
+    
+
+  } )
+
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
