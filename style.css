@@ -175,3 +175,10 @@ button {
 #summon-message {
   color: blue; 
 }
+
+body{
+  background-image: url(`C:\Users\Almir\Downloads`);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
