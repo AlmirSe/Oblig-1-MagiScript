@@ -19,9 +19,15 @@ document.addEventListener("DOMContentLoaded", () => {
      console.log("Opening spellbook...");
      bookView.classList.remove("hidden");
      book.classList.remove("hidden");
-     
-
   }
+
+  function closeSpellBook(){
+    bookview.classList.add("hidden");
+    passwordBook.classList.add("hidden");
+    nameBookCover.classList.add("hidden");
+    familiarBook.classList.add("hidden");
+  }
+  
   //TODO: add functionality to change password
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
