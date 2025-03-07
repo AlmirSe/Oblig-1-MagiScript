@@ -86,8 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     message.textContent = summonText;
     message.style.color = "blue";
-    
+
   });
 
-  //TODO: add functionality to summon familiar
-  // have a function where you can load content into a "user array" -> easier to work with
+ 
+ 
