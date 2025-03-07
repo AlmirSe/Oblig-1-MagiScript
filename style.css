@@ -46,6 +46,11 @@ body {
 
 .page-right {
   flex: 1;
+  max-width: 30px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .page-left {
