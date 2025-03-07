@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const wizardTitle = document.getElementById("new-wizard-title").value;
     const message = document.getElementById("rename-message");
 
-    message.textContent = `You are now known as ${wizardName}, the ${wizardTitle}!`;
+    message.textContent = "You are now known as ${wizardName}, the ${wizardTitle}!";
     message.style.color = "purple"; 
   });
 
@@ -79,10 +79,10 @@ document.addEventListener("DOMContentLoaded", () => {
       traits.push(traits.value);
     });
 
-    let summonText = `You have summoned a ${mood} ${familiarType} named ${familiarName}.`;
-    if (hasWings) summonText += `It has ${wingsType} wings.`;
-    if (traits.length > 0) summonText += `It possesses the following traits: ${traits.join(", ")}`;
-    summonText  += `Its contract ends on ${contractEnd}.`;
+    let summonText = "You have summoned a ${mood} ${familiarType} named ${familiarName}.";
+    if (hasWings) summonText += "It has ${wingsType} wings.";
+    if (traits.length > 0) summonText += "It possesses the following traits: ${traits.join(", ")}";
+    summonText  += "Its contract ends on ${contractEnd}.";
 
     message.textContent = summonText;
     message.style.color = "blue";
