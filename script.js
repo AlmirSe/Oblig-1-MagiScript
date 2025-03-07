@@ -74,9 +74,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const contractEnd = document.getElementById("contract-end").value;
     const message = document.getElementById("summon-message");
 
-    
+    let traits = [];
+    document.querySelectorAll(".traits:checked").forEach((traits) =>{
+      traits.push(traits.value);
+    })
 
-  } )
+  });
 
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
