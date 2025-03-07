@@ -38,13 +38,12 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("change-password-form").addEventListener("submit", (e) =>{
     e.preventDefault(); 
 
-    const username = document.getElementById("Username").values;
-    const newPassword = document.getElementById("new-Password").values;
-    const conFirmPassword = document.getElementById("confirm-password").values;
+    const username = document.getElementById("Username").value;
+    const newPassword = document.getElementById("new-Password").value;
+    const conFirmPassword = document.getElementById("confirm-password").value;
     const messages = document.getElementById("password-message");
 
     
-
 
   })
   //TODO: add functionality to change name
