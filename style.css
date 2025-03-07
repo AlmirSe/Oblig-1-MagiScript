@@ -42,6 +42,8 @@ body {
   padding-right: 200px; 
 
 }
+
+
 .page-right {
   flex: 1;
 }
@@ -52,7 +54,7 @@ body {
 }
 
 .page-left img {
-  rotate: 6deg;
+  transform: rotate: (6deg);
   opacity: 0.75;
   max-height: 600px;
   max-width: 350px;
