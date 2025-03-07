@@ -34,9 +34,8 @@ document.addEventListener("DOMContentLoaded", () => {
   familiarBookCover.addEventListener("click" () => openSpellBook(familiarBook));
 
   closeButton.addEventListener("click", closeSpellBook);
-  
 
-  //TODO: add functionality to change password
+  
   //TODO: add functionality to change name
   //TODO: add functionality to summon familiar
   // have a function where you can load content into a "user array" -> easier to work with
