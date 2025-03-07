@@ -5,6 +5,12 @@ document.addEventListener("DOMContentLoaded", () => {
   const nameBookCover = document.getElementById("change-name-book-cover");
   const familiarBookCover = document.getElementById("summon-familiar-cover");
    
+  const passwordBook = document.getElementById("change-password-book");
+  const nameBook = document.getElementById("change-name-book");
+  const familiarBook = document.getElementById("summon-familiar-book");
+  
+  const bookView = document.getElementById("book-view");
+  const closeButton = document.getElementById(close-tome);
   
 
   })
